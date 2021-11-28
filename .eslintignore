@@ -1,0 +1,4 @@
+node_modules
+/src/styles/**/*.css
+build
+storybook-static
