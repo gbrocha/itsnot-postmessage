@@ -2,9 +2,9 @@
 <h1>It's not Postmessage</h1>
 </div>
 
-<div align="center">
-  `@itsnot/postmessage` provides an API to simplify the us of the Postmessage API.
-</div>
+<p align="center">
+  `It's not Postmessage` provides an API to simplify the us of the Postmessage API.
+</p>
 
 <br>
 
