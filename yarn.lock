@@ -1449,6 +1449,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@itsnot/postmessage@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@itsnot/postmessage@workspace:."
+  dependencies:
+    "@babel/core": 7.2.0
+    "@babel/plugin-proposal-class-properties": ^7.13.0
+    "@rollup/plugin-alias": ^3.1.2
+    "@rollup/plugin-commonjs": ^17.1.0
+    "@rollup/plugin-node-resolve": ^11.1.1
+    "@types/node": ^14.14.25
+    "@types/uuid": ^8.3.4
+    "@typescript-eslint/eslint-plugin": ^4.15.0
+    "@typescript-eslint/parser": latest
+    "@zerollup/ts-transform-paths": ^1.7.18
+    babel-loader: ^8.2.2
+    babel-preset-react-app: ^10.0.0
+    body-parser: ^1.19.0
+    eslint: 7.24.0
+    eslint-config-prettier: ^7.2.0
+    eslint-config-standard: ^16.0.2
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-prettier: ^3.3.1
+    eslint-plugin-promise: ^4.2.1
+    husky: ^6.0.0
+    lint-staged: ^10.5.4
+    prettier: ^2.2.1
+    raw-body: ^2.4.1
+    rollup: ^2.38.5
+    rollup-plugin-cleaner: ^1.0.0
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-typescript2: ^0.29.0
+    tslib: ^2.1.0
+    ttypescript: ^1.5.12
+    typescript: ^4.2.3
+    uuid: ^8.3.2
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1495,44 +1535,6 @@ __metadata:
   checksum: c96381d4a37448ea280951e46233f7e541058cf57a57d4094dd4bdcaae43fa5872b5f2eb6bfb004591a68e29c5877abe3cdc210cb3588cbf20ab2877f31a7de7
   languageName: node
   linkType: hard
-
-"@org/lib@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@org/lib@workspace:."
-  dependencies:
-    "@babel/core": 7.2.0
-    "@babel/plugin-proposal-class-properties": ^7.13.0
-    "@rollup/plugin-alias": ^3.1.2
-    "@rollup/plugin-commonjs": ^17.1.0
-    "@rollup/plugin-node-resolve": ^11.1.1
-    "@types/node": ^14.14.25
-    "@typescript-eslint/eslint-plugin": ^4.15.0
-    "@typescript-eslint/parser": latest
-    "@zerollup/ts-transform-paths": ^1.7.18
-    babel-loader: ^8.2.2
-    babel-preset-react-app: ^10.0.0
-    body-parser: ^1.19.0
-    eslint: 7.24.0
-    eslint-config-prettier: ^7.2.0
-    eslint-config-standard: ^16.0.2
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^3.3.1
-    eslint-plugin-promise: ^4.2.1
-    husky: ^6.0.0
-    lint-staged: ^10.5.4
-    prettier: ^2.2.1
-    raw-body: ^2.4.1
-    rollup: ^2.38.5
-    rollup-plugin-cleaner: ^1.0.0
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-typescript2: ^0.29.0
-    tslib: ^2.1.0
-    ttypescript: ^1.5.12
-    typescript: ^4.2.3
-  languageName: unknown
-  linkType: soft
 
 "@rollup/plugin-alias@npm:^3.1.2":
   version: 3.1.8
@@ -1653,6 +1655,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: dc6a6df507656004e242dcb02c784479deca516d5f4b58a1707e708022b269ae147e1da0521f3e8ad0d63638869d87e0adc023f0bd5454aa6f72ac66c7525cf5
+  languageName: node
+  linkType: hard
+
+"@types/uuid@npm:^8.3.4":
+  version: 8.3.4
+  resolution: "@types/uuid@npm:8.3.4"
+  checksum: 6f11f3ff70f30210edaa8071422d405e9c1d4e53abbe50fdce365150d3c698fe7bbff65c1e71ae080cbfb8fded860dbb5e174da96fdbbdfcaa3fb3daa474d20f
   languageName: node
   linkType: hard
 
@@ -5519,6 +5528,15 @@ typescript@^4.2.3:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^8.3.2":
+  version: 8.3.2
+  resolution: "uuid@npm:8.3.2"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
   languageName: node
   linkType: hard
 
